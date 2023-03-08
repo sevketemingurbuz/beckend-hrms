@@ -1,0 +1,11 @@
+@startuml Order Taking
+
+[index] ..> [app]
+[app] ..> [navi]
+[app] ..> [dashboard]
+[navi] ..> [cartSummary]
+[navi] ..> [menu]
+[dashboard] ..> [categories]
+[dashboard] ..> [jobAdvertisement]
+
+@enduml

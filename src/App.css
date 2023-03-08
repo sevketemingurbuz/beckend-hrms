@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.ui.main.container{
+  margin-top: 2em;
+}
+
+
+
+table.inside-table > tbody> tr > td, table.inside-table > tbody> tr > th{
+  min-width:100px;
+  max-width:100px;
+
+}
+
+.grid-sign-up > div > input, .grid-password > div > input{
+  padding: 5px;
+}
+.error{
+  color: black;
+  margin-left: 2em;
+}
+.error-black{
+  color: black;
+}
+
+
